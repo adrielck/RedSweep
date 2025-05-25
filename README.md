@@ -34,7 +34,7 @@ Instale-os via `go install` ou usando repositórios oficiais.
 ## 🧪 Uso
 
 ```bash
-python recon_tool.py example.com
+python redsweep.py example.com
 ```
 
 ### 🔧 Parâmetros
@@ -46,7 +46,7 @@ python recon_tool.py example.com
 ### 📁 Estrutura de saída
 
 ```
-recon_example.com_20250525_153000/
+redsweep_example.com_20250525_153000/
 ├── whois.txt
 ├── dns.txt
 ├── subdomains.txt
@@ -64,7 +64,7 @@ recon_example.com_20250525_153000/
 ## 🛠️ Exemplo real
 
 ```bash
-python recon_tool.py target.com --no-gowitness
+python redsweep.py target.com --no-gowitness
 ```
 
 ## 📜 Licença
